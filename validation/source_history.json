@@ -1,0 +1,698 @@
+[
+  {
+    "commit": "032766d08bc8ff1ad46b8ae4af8650503922e149",
+    "date": "2026-05-26",
+    "title": "Add CASINO gwfn.data export for Quickstep orbitals (S. Azadi) (#5288)",
+    "pull_requests": [
+      5288
+    ]
+  },
+  {
+    "commit": "f506c3be655993367ada9324c884b599c83f3cf6",
+    "date": "2026-05-26",
+    "title": "TREXIO: Export full k-point grids from symmetry-reduced SCF (S. Azadi) (#5297)",
+    "pull_requests": [
+      5297
+    ]
+  },
+  {
+    "commit": "d000247bb9290a06932d6d5f578a62525bfe1fc2",
+    "date": "2026-05-27",
+    "title": "Avoid full k-point symmetry for noncanonical cells (#5301)",
+    "pull_requests": [
+      5301
+    ]
+  },
+  {
+    "commit": "ddfed05c5a38210fc3d9b1bafb40f94b74eb9142",
+    "date": "2026-05-27",
+    "title": "Implement k-point PDOS with Lowdin projections (#5299)",
+    "pull_requests": [
+      5299
+    ]
+  },
+  {
+    "commit": "8c42d232ef8c298f58ac004c0bfa3889b6cee707",
+    "date": "2026-05-28",
+    "title": "Avoid full k-point symmetry for skew cells (#5309)",
+    "pull_requests": [
+      5309
+    ]
+  },
+  {
+    "commit": "7c86815ba88ba636d2e5741ea9741d29a0f1184c",
+    "date": "2026-06-01",
+    "title": "Add a warning regarding SCCS with k-points (#5330)",
+    "pull_requests": [
+      5330
+    ]
+  },
+  {
+    "commit": "d41503088af0ae63d54e2427fa15bf18640a6923",
+    "date": "2026-06-05",
+    "title": "Smearing: various fixes (#5354)",
+    "pull_requests": [
+      5354
+    ]
+  },
+  {
+    "commit": "dccd4e42bef3504d8e1c5279ba2e8683904d23f4",
+    "date": "2026-06-06",
+    "title": "Drop complex magnitude matching and use absolute values for k-point moment tests (#5364)",
+    "pull_requests": [
+      5364
+    ]
+  },
+  {
+    "commit": "9a1f30adbb447fd3539142d9e570ccae7a7d3ade",
+    "date": "2026-06-15",
+    "title": "Support periodic native SKALA stress, k-points, and NLCC (#5394)",
+    "pull_requests": [
+      5394
+    ]
+  },
+  {
+    "commit": "2085e8ca3af609fde66b81ec689a7eff7b3530dd",
+    "date": "2026-06-22",
+    "title": "RIRS-GW: optimize OMP parallelization (#5399)",
+    "pull_requests": [
+      5399
+    ]
+  },
+  {
+    "commit": "3c69fd194fcffa4084502554522dd273ea10b924",
+    "date": "2026-06-22",
+    "title": "Support native-grid SKALA GAPW stress and k-points (#5421)",
+    "pull_requests": [
+      5421
+    ]
+  },
+  {
+    "commit": "2894a3be3dafdc6264f3678ff9af3abaf5802234",
+    "date": "2026-06-23",
+    "title": "RIRS: Improve RI-RS GW implementation, enable \u0393-point calculation for large cells and integrate compile-time fix (#5429)",
+    "pull_requests": [
+      5429
+    ]
+  },
+  {
+    "commit": "23252ab8025ed9d5fb0f83a781a7df0151f6e288",
+    "date": "2026-06-24",
+    "title": "Revise k-points documentation (#5435)",
+    "pull_requests": [
+      5435
+    ]
+  },
+  {
+    "commit": "dd16820ba151ecd25c85ef4ad36ed93878296312",
+    "date": "2026-07-06",
+    "title": "Docs: Clarify Wannier90 SCF MO reuse requirements (#5531)",
+    "pull_requests": [
+      5531
+    ]
+  },
+  {
+    "commit": "97cfbf5b46f7b027063859fdd8ce60b404b22a6c",
+    "date": "2026-07-13",
+    "title": "Fix Bloch phases for fully symmetry-reduced k-point grids (#5581)",
+    "pull_requests": [
+      5581
+    ]
+  },
+  {
+    "commit": "c92cc08b45378b85150447011b5a4bb552f5b797",
+    "date": "2026-07-14",
+    "title": "Fix TBLITE forces and stress for periodic k-point calculations (#5582)",
+    "pull_requests": [
+      5582
+    ]
+  },
+  {
+    "commit": "8f16beb0399a8ab5c7d24d10a5343a61d661667a",
+    "date": "2026-07-17",
+    "title": "Move SCF MO k-point symmetry transform helper out of qs_wannier90 (#5598)",
+    "pull_requests": [
+      5598
+    ]
+  },
+  {
+    "commit": "f4d43ab54fb36c681db345fac0fb4add1ffefdae",
+    "date": "2026-07-20",
+    "title": "Test xTB/regtest-3-spglib requires tblite (#5606)",
+    "pull_requests": [
+      5606
+    ]
+  },
+  {
+    "commit": "735a61ddab628ae54d18a6817003872322ab6f70",
+    "date": "2026-07-22",
+    "title": "RIRS: Improvement in GW RIRS code for non-periodic systems (#5621)",
+    "pull_requests": [
+      5621
+    ]
+  },
+  {
+    "commit": "2589a58106261948f41c93b9c9899b4033eea473",
+    "date": "2026-07-23",
+    "title": "RIRS: Fix RI-RS regtest issue with sdbg (#5622)",
+    "pull_requests": [
+      5622
+    ]
+  },
+  {
+    "commit": "88ac9fdbaa27d593220004fed8cc76b291627b30",
+    "date": "2026-07-28",
+    "title": "tblite v0.7.0 and trexio v2.6.1 (#5591)",
+    "pull_requests": [
+      5591
+    ]
+  },
+  {
+    "commit": "7b6f4dd061754e37c41e190ef48877c08126206a",
+    "date": "2026-08-03",
+    "title": "Stabilize periodic images at half-cell boundaries (#5646)",
+    "pull_requests": [
+      5646
+    ]
+  },
+  {
+    "commit": "966235b268060496e96ace6d137cbbbeb92d7812",
+    "date": "2026-08-07",
+    "title": "Enable Spglib in CUDA toolchain builds (#5685)",
+    "pull_requests": [
+      5685
+    ]
+  },
+  {
+    "commit": "ae513bac4f751e79b120bf8419509e980ad75ec8",
+    "date": "2026-08-22",
+    "title": "KPOINTS: Add FFT-based transforms for complete regular k-point grids (#5823)",
+    "pull_requests": [
+      5823
+    ]
+  },
+  {
+    "commit": "671317bf6b52ff03800f3d037e7d8d4759bb7041",
+    "date": "2026-08-24",
+    "title": "Parallelize k-point calculations with OpenMP for single-rank runs (#5804)",
+    "pull_requests": [
+      5804
+    ]
+  },
+  {
+    "commit": "352a1eeb3175a0efb77c54bb39c5ad26f4da2a3c",
+    "date": "2026-08-24",
+    "title": "TB: Skip MO cubes for k-point wavefunctions (#5828)",
+    "pull_requests": [
+      5828
+    ]
+  },
+  {
+    "commit": "77d8609f2e8c92aaa0f49e58e1337086fe86c182",
+    "date": "2026-08-24",
+    "title": "RIRS: dedicated &RI_RS input section, linear-dependency fix in the GW minimax grid, and evGW0 (#5780)",
+    "pull_requests": [
+      5780
+    ]
+  },
+  {
+    "commit": "0341268081d224131b82b4d38857644dbfa18c5f",
+    "date": "2026-08-26",
+    "title": "DIAG: Add ELPA support for complex Hermitian matrices (k-points) (#5851)",
+    "pull_requests": [
+      5851
+    ]
+  },
+  {
+    "commit": "82824c2a989120811594843491a3d13a99773b41",
+    "date": "2026-08-29",
+    "title": "QS: Enable fixed-occupation OT for complex K points (#5874)",
+    "pull_requests": [
+      5874
+    ]
+  },
+  {
+    "commit": "f8af49dff5667c98c9bbc3a1c9d16a527a4a7362",
+    "date": "2026-08-29",
+    "title": "Fix: Mark k-point GEXT_PROJ wavefunctions as orthogonalized (#5876)",
+    "pull_requests": [
+      5876
+    ]
+  },
+  {
+    "commit": "8ae0ae1c54601db671d6bd7a8050c61de53fd0fd",
+    "date": "2026-08-29",
+    "title": "QS: Add preconditioners for complex K-point OT (#5875)",
+    "pull_requests": [
+      5875
+    ]
+  },
+  {
+    "commit": "9a8d86950d9f08cbf75ae827e2a237529c51d601",
+    "date": "2026-08-29",
+    "title": "QS: Enable DIIS for complex K-point OT (#5878)",
+    "pull_requests": [
+      5878
+    ]
+  },
+  {
+    "commit": "809bee24a8ce53d10039a77f3229f4c30a704c54",
+    "date": "2026-08-29",
+    "title": "QS: Enable STRICT OT for complex K points (#5879)",
+    "pull_requests": [
+      5879
+    ]
+  },
+  {
+    "commit": "ea21f2a1de5b61097daf98ad3f8449019d2935b4",
+    "date": "2026-08-29",
+    "title": "QS: Fix OpenMP races in K-point symmetry transforms (#5884)",
+    "pull_requests": [
+      5884
+    ]
+  },
+  {
+    "commit": "b28932e4856d51537cfa344d69c93378b8f938f9",
+    "date": "2026-08-29",
+    "title": "QS: Enable complex K-point OT rotations and L-BFGS (#5880)",
+    "pull_requests": [
+      5880
+    ]
+  },
+  {
+    "commit": "c2c6cafefaf4c732d3173ae8fabd962bb45c8f22",
+    "date": "2026-08-29",
+    "title": "QS: Add fixed-N Mermin response kernels (#5882)",
+    "pull_requests": [
+      5882
+    ]
+  },
+  {
+    "commit": "eae6b60c5565c5b1db4e40d5f852541f59d5e6a5",
+    "date": "2026-08-29",
+    "title": "QS: Enable FULL_ALL preconditioning for complex K points (#5883)",
+    "pull_requests": [
+      5883
+    ]
+  },
+  {
+    "commit": "0daac67044f0b93d004096fadc70a949a2dc87af",
+    "date": "2026-08-30",
+    "title": "QS: Enable fixed-N Mermin OT for complex K points (#5887)",
+    "pull_requests": [
+      5887
+    ]
+  },
+  {
+    "commit": "04a94ed4172b949227edfab7eb57114878af1e56",
+    "date": "2026-08-30",
+    "title": "QS: Extend complex K-point Mermin OT minimizers (#5888)",
+    "pull_requests": [
+      5888
+    ]
+  },
+  {
+    "commit": "fd7f3026c8c74179dedec3e4971b29956e978af1",
+    "date": "2026-08-30",
+    "title": "TESTS: Reduce complex Mermin OT smoke-test runtime (#5889)",
+    "pull_requests": [
+      5889
+    ]
+  },
+  {
+    "commit": "1fb1e021101095dda7d71da7afe35d39010b8d1f",
+    "date": "2026-08-30",
+    "title": "QS: Distribute Mermin OT over K-point groups (#5893)",
+    "pull_requests": [
+      5893
+    ]
+  },
+  {
+    "commit": "7e41d1801d6c30602c60ce1f4b0ddc690fcf899c",
+    "date": "2026-08-30",
+    "title": "QS: Enable occupation-preconditioned Mermin DIIS (#5890)",
+    "pull_requests": [
+      5890
+    ]
+  },
+  {
+    "commit": "a9fdcfea4b94ea08116cff6bd86034aecb4caf47",
+    "date": "2026-08-30",
+    "title": "QS: Enable K-point Mermin OT smearing for tblite (#5891)",
+    "pull_requests": [
+      5891
+    ]
+  },
+  {
+    "commit": "814e3266bb480c675b45a1dd018d7a897986e5fc",
+    "date": "2026-08-30",
+    "title": "QS: Add adaptive ADDED_MOS for K-point smearing (#5892)",
+    "pull_requests": [
+      5892
+    ]
+  },
+  {
+    "commit": "b1c7e1ec87c457d9be9a194a9d16369f8ccb4eb3",
+    "date": "2026-08-30",
+    "title": "Align k-point OT line-search step counting (#5895)",
+    "pull_requests": [
+      5895
+    ]
+  },
+  {
+    "commit": "b35af4ecfc036765c17bf755cb0e8a8e3627fc09",
+    "date": "2026-08-30",
+    "title": "OT: Add finite complex Mermin response kernels (#5896)",
+    "pull_requests": [
+      5896
+    ]
+  },
+  {
+    "commit": "f865e2adacc3af1e2de0122176fdd348633f7183",
+    "date": "2026-08-30",
+    "title": "OT: Enable occupation-preconditioned L-BFGS for metallic K points (#5897)",
+    "pull_requests": [
+      5897
+    ]
+  },
+  {
+    "commit": "f566bb2c684ca546d8d38238ccfc6290257b65be",
+    "date": "2026-08-30",
+    "title": "OT: Enable Broyden for complex K-point product variables (#5898)",
+    "pull_requests": [
+      5898
+    ]
+  },
+  {
+    "commit": "2b94a821ca22a2808c825d7ab70a6bc3c9ac542f",
+    "date": "2026-08-30",
+    "title": "OT: Enable forces and stress for complex K points (#5901)",
+    "pull_requests": [
+      5901
+    ]
+  },
+  {
+    "commit": "44e9661bd25b539c52964b9c24cbd403e42de22b",
+    "date": "2026-08-30",
+    "title": "OT: Add calibrated Mermin response for metallic K points (#5900)",
+    "pull_requests": [
+      5900
+    ]
+  },
+  {
+    "commit": "84021a3656ba02f6b4319f425e52944f51edace5",
+    "date": "2026-08-31",
+    "title": "OT: Generalize fixed-N K-point smearing (#5906)",
+    "pull_requests": [
+      5906
+    ]
+  },
+  {
+    "commit": "2a4484bcd2881f6a6bd5f0a4df89ccb4a9b2f175",
+    "date": "2026-08-31",
+    "title": "OT: Extend iterative diagonalization to complex K points (#5904)",
+    "pull_requests": [
+      5904
+    ]
+  },
+  {
+    "commit": "d2a9ebd10993c30b682aa25fb8da846cb386ae82",
+    "date": "2026-08-31",
+    "title": "OT: Enable implicit Gamma-point Mermin smearing (#5905)",
+    "pull_requests": [
+      5905
+    ]
+  },
+  {
+    "commit": "6fea8e5df09ef259f9f8ae1dd2d97a99d1063285",
+    "date": "2026-08-31",
+    "title": "OT: Enable complex K-point ROKS (#5903)",
+    "pull_requests": [
+      5903
+    ]
+  },
+  {
+    "commit": "efd7f814e054e48cebd3d65469644fd42d14ff8e",
+    "date": "2026-08-31",
+    "title": "RI-RS and linRTBSE: Improve Z_lP solve, own QP routine, and evGW0-consistent RT-BSE (#5885)",
+    "pull_requests": [
+      5885
+    ]
+  },
+  {
+    "commit": "8b128ef9afe48b2ee52ff2a5ba44f304f4404966",
+    "date": "2026-09-01",
+    "title": "DOCS: Describe metallic and K-point OT workflows (#5917)",
+    "pull_requests": [
+      5917
+    ]
+  },
+  {
+    "commit": "0092d1da26533036a183627d6d87c853fbf75f54",
+    "date": "2026-09-01",
+    "title": "QS: Restart complex K-point OT minimizer state (#5909)",
+    "pull_requests": [
+      5909
+    ]
+  },
+  {
+    "commit": "1f9b1b4b1c01130c6c18fbc4405a0ad4c9fe51d2",
+    "date": "2026-09-01",
+    "title": "OT: Calibrate finite Mermin response for metallic systems (#5915)",
+    "pull_requests": [
+      5915
+    ]
+  },
+  {
+    "commit": "2ee7d13f6604e737f881a7074d092ebda3fa17cb",
+    "date": "2026-08-31",
+    "title": "QS: Support metallic K-point OT in molecular and cell motion (#5916)",
+    "pull_requests": [
+      5916
+    ]
+  },
+  {
+    "commit": "b2af10d2b430ba6561d6fd46127f42a1df6752b8",
+    "date": "2026-09-01",
+    "title": "OT: Clean up Mermin response diagnostics (#5923)",
+    "pull_requests": [
+      5923
+    ]
+  },
+  {
+    "commit": "5a20bbe7900c50f8f86c846b9fb1259f48515fe1",
+    "date": "2026-09-01",
+    "title": "Revert k-point OT minimizer restart state (#5931)",
+    "pull_requests": [
+      5931
+    ]
+  },
+  {
+    "commit": "2210b1e1a0863e3ee4364634937a80223ff551d5",
+    "date": "2026-09-01",
+    "title": "Add automatic GW RI-RS grid optimization (#5918)",
+    "pull_requests": [
+      5918
+    ]
+  },
+  {
+    "commit": "18fcb8beef7d8b6c6f794c7b14ed652cbd6ee2c5",
+    "date": "2026-09-02",
+    "title": "QS: Blocked Davidson diagonalization for k-points (#5934)",
+    "pull_requests": [
+      5934
+    ]
+  },
+  {
+    "commit": "916f1a69753139f782202bb569a430b8282871cf",
+    "date": "2026-09-02",
+    "title": "OT: Add the physical Hxc response to K-point Mermin CG (#5926)",
+    "pull_requests": [
+      5926
+    ]
+  },
+  {
+    "commit": "b6ef1009d8c26dd4dff4e678a2e3cba61093fafc",
+    "date": "2026-09-02",
+    "title": "Avoid executable-stack trampoline in RI-RS grid optimization (#5942)",
+    "pull_requests": [
+      5942
+    ]
+  },
+  {
+    "commit": "8bb2c6e9356960612c2cbd8484f305bb75408e6d",
+    "date": "2026-09-02",
+    "title": "Replace k-point OT synchronization with consistent initialization (#5935)",
+    "pull_requests": [
+      5935
+    ]
+  },
+  {
+    "commit": "dcee5c8fc281be43fafd8a2f4f8d6b8b2cfb0878",
+    "date": "2026-09-02",
+    "title": "Fix MPI k-point-group handling in Davidson (#5945)",
+    "pull_requests": [
+      5945
+    ]
+  },
+  {
+    "commit": "24d69eead60ce39e6d7a6b093a1927543a855ad4",
+    "date": "2026-09-03",
+    "title": "Unify ao exp ikr operator (#5932)",
+    "pull_requests": [
+      5932
+    ]
+  },
+  {
+    "commit": "375a5ce9d028a60d4c3291b2b3eb10053932e6a3",
+    "date": "2026-09-03",
+    "title": "QS: Shared assembly of complex k-point operators (#5950)",
+    "pull_requests": [
+      5950
+    ]
+  },
+  {
+    "commit": "69cc2bac5b0ddbe46d66339dc16e998e9ddc0b6d",
+    "date": "2026-09-04",
+    "title": "Stabilize Al Mermin LBFGS regression test (#5955)",
+    "pull_requests": [
+      5955
+    ]
+  },
+  {
+    "commit": "9298c1a3ccc1b46c8ea8dcc3e4974752d91c83cc",
+    "date": "2026-09-05",
+    "title": "Stabilize sparse RI-RS grid optimization regtest (#5963)",
+    "pull_requests": [
+      5963
+    ]
+  },
+  {
+    "commit": "0ad43f6dc806a10a62c729a0db1038a3f251266c",
+    "date": "2026-09-05",
+    "title": "Use automatic K-point grouping in OT regtests (#5967)",
+    "pull_requests": [
+      5967
+    ]
+  },
+  {
+    "commit": "8eb3c94abdec665c541abd4f81d2aacaaef4b198",
+    "date": "2026-09-06",
+    "title": "Fix standard MO output for MPI-distributed k-points (#5975)",
+    "pull_requests": [
+      5975
+    ]
+  },
+  {
+    "commit": "4dc521314710d0daaaf6c613eef2b952466566c4",
+    "date": "2026-09-08",
+    "title": "QS: Unify k-point operator service (#5974)",
+    "pull_requests": [
+      5974
+    ]
+  },
+  {
+    "commit": "2ac5cc1a2492f2aae749098b8be0b482f271b8cc",
+    "date": "2026-09-08",
+    "title": "Add a k-point benchmarker (#5984)",
+    "pull_requests": [
+      5984
+    ]
+  },
+  {
+    "commit": "8eec0dbf83f8227e2faa92aa16216c89c818f570",
+    "date": "2026-09-09",
+    "title": "Fix k-point DIIS group reduction (#5994)",
+    "pull_requests": [
+      5994
+    ]
+  },
+  {
+    "commit": "ba1d7ca22e7ccc538109272e9f450255bf85a54d",
+    "date": "2026-09-08",
+    "title": "Accelerate Z construction in nonperiodic RI-RS GW (#5989)",
+    "pull_requests": [
+      5989
+    ]
+  },
+  {
+    "commit": "80e8ed30d90fde371887398b9db49793dc4545fa",
+    "date": "2026-09-10",
+    "title": "OT: Enable adaptive preconditioners at complex K points (#5924)",
+    "pull_requests": [
+      5924
+    ]
+  },
+  {
+    "commit": "5e7fe522af4b8cd0c624c831be393cd2fcf099cd",
+    "date": "2026-09-11",
+    "title": "OT: Couple complex K-point ROKS preconditioning and Mermin response (#5925)",
+    "pull_requests": [
+      5925
+    ]
+  },
+  {
+    "commit": "0d64c382e2c520adbca5f8e7bffbe55fc6c4ec98",
+    "date": "2026-09-12",
+    "title": "Remove duplicate and erroneous periodic RPA density initialization (#5997)",
+    "pull_requests": [
+      5997
+    ]
+  },
+  {
+    "commit": "fc5964607d89b0a94d7b13d69b945a323b57a471",
+    "date": "2026-09-13",
+    "title": "Stabilize K290 atom matching at symmetry tolerance boundaries (#6009)",
+    "pull_requests": [
+      6009
+    ]
+  },
+  {
+    "commit": "4df34f3bc6c61976b3df1b4a2e06d3b99d7ad5eb",
+    "date": "2026-09-13",
+    "title": "Screen unsupported periodic images in native atom-grid reconstruction (#6007)",
+    "pull_requests": [
+      6007
+    ]
+  },
+  {
+    "commit": "b7f382fdc407f88d12ff7366890502f142eb2cfb",
+    "date": "2026-09-13",
+    "title": "QS: Honor ADDED_MOS AUTO in the k-point Davidson diagonalization (#6016)",
+    "pull_requests": [
+      6016
+    ]
+  },
+  {
+    "commit": "8ec0769333b3ff12d5b60ae851ae208758e6fbb2",
+    "date": "2026-09-13",
+    "title": "Use a common representation for RPA imaginary-time propagators (#6012)",
+    "pull_requests": [
+      6012
+    ]
+  },
+  {
+    "commit": "3313dd4ecdbe3b94abcbf87613f2f0d3df054ff3",
+    "date": "2026-09-14",
+    "title": "Automatic RI basis optimization for GW (#6003)",
+    "pull_requests": [
+      6003
+    ]
+  },
+  {
+    "commit": "eac757a8d51625614721ffcfa7b632d120a43019",
+    "date": "2026-09-14",
+    "title": "Unify MO windows and RPA/GW time-frequency grids (#6015)",
+    "pull_requests": [
+      6015
+    ]
+  },
+  {
+    "commit": "0005d2399e6134cae9bb1c14f1c3bb406c0f9132",
+    "date": "2026-09-14",
+    "title": "Low-Scaling GW and RI-RS: auto-detect MEMORY_PER_PROC and honour CUTOFF_RADIUS_RI in the RI-RS grid optimizer (#5971)",
+    "pull_requests": [
+      5971
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+
+ *** WARNING in cryssym.F:1785 :: The K290 k-point operations produced ***
+ *** overlapping, non-closed mesh orbits; falling back to              ***
+ *** inversion/time-reversal symmetry. Use SYMMETRY_BACKEND SPGLIB for ***
+ *** full reduction by a closed crystallographic symmetry group.       ***
+
+ K290 tolerance-boundary and orbit-guard tests passed

@@ -1,0 +1,42 @@
+\begin{table}[htbp]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Mesh dependence for conventional cubic Si and Al cells. The tabulated quantity is energy per atom for Si and electronic free energy per atom for Al at 1000 K. Differences refer to the corresponding full $8^3$ mesh. This mesh sequence does not establish the infinite-mesh or complete-basis limit. Chemical potentials use CP2K's internal energy zero.}
+\label{tab:mesh-validation}
+\begin{tabular}{llrrr}
+\toprule
+System & Mesh & $E/N$ or $\mathcal F/N$ ($E_h$) & $\Delta$ (meV/atom) & $\mu$ ($E_h$) \\
+\midrule
+Si & $1^3$ & -3.8894918076 & 1277.879 & -- \\
+Si & $2^3$ & -3.9334572345 & 81.519 & -- \\
+Si & $4^3$ & -3.9364036379 & 1.344 & -- \\
+Si & $6^3$ & -3.9364514258 & 0.043 & -- \\
+Si & $8^3$ & -3.9364530128 & 0.000 & -- \\
+Al & $1^3$ & -2.0101729640 & 1676.252 & 0.20014793 \\
+Al & $2^3$ & -2.0660631977 & 155.401 & 0.23145703 \\
+Al & $4^3$ & -2.0701747224 & 43.521 & 0.26198590 \\
+Al & $6^3$ & -2.0713800877 & 10.721 & 0.25412969 \\
+Al & $8^3$ & -2.0717740941 & 0.000 & 0.25645631 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Same-mesh comparisons at $4^3$, relative to the direct full-grid result. Columns report solved k-points, absolute cell-energy/free-energy differences, maximum force-component differences, and maximum stress-component differences. All runs use one OpenMP thread. The FFT label records the requested option. Independent transform unit tests also check the FFT algebra.}
+\label{tab:symmetry-validation}
+\begin{tabular}{llrrrr}
+\toprule
+System & Mode & $N_k$ & $|\Delta E|$ ($E_h$) & $\|\Delta F\|_\infty$ ($E_h/a_0$) & $\|\Delta\sigma\|_\infty$ (bar) \\
+\midrule
+Si & Full & 64 & $0$ & $0$ & $0$ \\
+Si & Time reversal & 32 & $1.1\times10^{-14}$ & $9.6\times10^{-16}$ & $2.4\times10^{-10}$ \\
+Si & K290 & 4 & $1.4\times10^{-14}$ & $2.0\times10^{-15}$ & $2.3\times10^{-10}$ \\
+Si & SPGLIB & 4 & $1.4\times10^{-14}$ & $2.0\times10^{-15}$ & $2.3\times10^{-10}$ \\
+Si & Full, FFT requested & 64 & $7.1\times10^{-15}$ & $1.9\times10^{-15}$ & $4.3\times10^{-10}$ \\
+Al & Full & 64 & $0$ & $0$ & $0$ \\
+Al & Time reversal & 32 & $1.4\times10^{-12}$ & $1.1\times10^{-15}$ & $1.1\times10^{-06}$ \\
+Al & K290 & 4 & $5.3\times10^{-13}$ & $9.3\times10^{-16}$ & $9.8\times10^{-02}$ \\
+Al & SPGLIB & 4 & $5.3\times10^{-13}$ & $9.3\times10^{-16}$ & $9.8\times10^{-02}$ \\
+Al & Full, FFT requested & 64 & $1.9\times10^{-13}$ & $7.3\times10^{-16}$ & $7.0\times10^{-08}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

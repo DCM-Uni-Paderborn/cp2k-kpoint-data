@@ -1,0 +1,14 @@
+[
+  {
+    "test": "kpoint_lattice_fft_unittest.ssmp",
+    "returncode": 0
+  },
+  {
+    "test": "kpsym_unittest.ssmp",
+    "returncode": 0
+  },
+  {
+    "test": "kpoint_smearing_unittest.ssmp",
+    "returncode": 0
+  }
+]
